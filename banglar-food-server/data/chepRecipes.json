@@ -1,0 +1,342 @@
+[
+  {
+    "_id": 1,
+    "categoryId": 1,
+    "chefName": "John Smith",
+    "chefPicture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5342.jpg?w=900&t=st=1683021177~exp=1683021777~hmac=f1c14506e0ab5517783785b4c9cdf3917792edbb2de705469ce446cb8e52ac6a",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 75,
+    "likes": 5000,
+    "shortBio": "John Smith is a renowned chef who has worked in some of the best restaurants in the world. He is known for his innovative and creative dishes that combine flavors from different cuisines.",
+    "recipes": [
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/pasta-bolognese-with-ingredients-wooden-table_181624-43407.jpg?size=626&ext=jpg&ga=GA1.2.2052780206.1681078998&semt=ais",
+        "recipeName": "Spaghetti Bolognese",
+        "ingredients": [
+          "spaghetti",
+          "ground beef",
+          "canned tomatoes",
+          "onion",
+          "garlic"
+        ],
+        "cookingMethod": "1. Cook spaghetti according to package instructions.\n2. In a large skillet, cook ground beef over medium heat until browned.\n3. Add chopped onion and minced garlic, and cook until onion is translucent.\n4. Add canned tomatoes and let simmer for 10-15 minutes.\n5. Serve sauce over spaghetti.",
+        "rating": 4.5
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/skewered-chicken-kebab-with-rice-vegetables_140725-2320.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Chicken Tikka Masala",
+        "ingredients": [
+          "boneless chicken",
+          "yogurt",
+          "tomato sauce",
+          "spices",
+          "cream"
+        ],
+        "cookingMethod": "1. Cut boneless chicken into bite-sized pieces and marinate in yogurt and spices for at least 30 minutes.\n2. Grill or bake chicken until cooked through.\n3. In a separate pan, heat tomato sauce and add more spices as desired.\n4. Add cooked chicken to the tomato sauce and simmer for 10-15 minutes.\n5. Stir in cream and serve with rice or naan bread.",
+        "rating": 4.8
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/lamb-steak-pieces-with-sauces-grilled-pepper-fresh-salad-wooden-board_140725-10580.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Roast Beef",
+        "ingredients": [
+          "beef roast",
+          "olive oil",
+          "garlic",
+          "rosemary",
+          "salt"
+        ],
+        "cookingMethod": "1. Preheat oven to 375°F.\n2. Rub beef roast with olive oil and season with minced garlic, chopped rosemary, and salt.\n3. Roast beef for about 20 minutes per pound or until internal temperature reaches 135°F for medium-rare.\n4. Let beef rest for 10-15 minutes before slicing and serving.",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "categoryId": 1,
+    "chefName": "Jane Doe",
+    "chefPicture": "https://img.freepik.com/free-photo/confident-young-handsome-cook-chef-uniform-standing-with-closed-posture-isolated-orange-wall_141793-101136.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 50,
+    "likes": 3000,
+    "shortBio": "Jane Doe is a passionate chef who believes that food should not only taste great but also be healthy and nutritious. She specializes in vegan and vegetarian cuisine.",
+    "recipes": [
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine-top-view_2829-4414.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Vegetable Curry",
+        "ingredients": [
+          "potatoes",
+          "carrots",
+          "cauliflower",
+          "onion",
+          "curry powder"
+        ],
+        "cookingMethod": "1. Chop potatoes, carrots, cauliflower, and onion into bite-sized pieces.\n2. In a large pot or Dutch oven, cook vegetables with curry powder and water until vegetables are tender.\n3. Serve curry over rice or with naan bread.",
+        "rating": 4.6
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/top-view-cookies-chocolate-chips-cloth_23-2148654545.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Chocolate Chip Cookies",
+        "ingredients": ["flour", "butter", "sugar", "chocolate chips", "egg"],
+        "cookingMethod": "1. Preheat oven to 375°F.\n2. In a mixing bowl, cream butter and sugar together until light and fluffy.\n3. Beat in egg and gradually add flour until well combined.\n4. Fold in chocolate chips.\n5. Drop spoonfuls of cookie dough onto a baking sheet and bake for 10-12 minutes or until golden brown.",
+        "rating": 4.9
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/delicious-goulash-ready-dinner_23-2149370900.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Beef Stew",
+        "ingredients": [
+          "beef chuck",
+          "potatoes",
+          "carrots",
+          "onion",
+          "beef broth"
+        ],
+        "cookingMethod": "1. Cut beef chuck into bite-sized pieces and brown in a large pot or Dutch oven.\n2. Add chopped potatoes, carrots, and onion.\n3. Pour in beef broth and let simmer for 1-2 hours until vegetables are tender.\n4. Season with salt and pepper to taste.",
+        "rating": 4.4
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "categoryId": 2,
+    "chefName": "Maria Rodriguez",
+    "chefPicture": "https://img.freepik.com/free-photo/smiling-young-female-cook-wearing-chef-uniform-holding-points-cake-plate-isolated-orange-background_141793-105117.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+    "yearsOfExperience": 12,
+    "numberOfRecipes": 50,
+    "likes": 3000,
+    "shortBio": "Maria Rodriguez is a talented chef who specializes in Latin American cuisine. She grew up in a family of cooks and has always been passionate about food. Maria loves experimenting with new ingredients and flavors to create unique dishes.",
+    "recipes": [
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/whole-chicken-grill-served-with-rice-garnish-white-plate_114579-873.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Arroz con Pollo",
+        "ingredients": [
+          "chicken",
+          "rice",
+          "tomato sauce",
+          "onion",
+          "garlic",
+          "peas",
+          "carrots",
+          "bell pepper"
+        ],
+        "cookingMethod": "1. Cook rice according to package instructions.\n2. In a large skillet, cook chicken over medium heat until browned.\n3. Add chopped onion and minced garlic, and cook until onion is translucent.\n4. Add tomato sauce, peas, carrots, and bell pepper, and let simmer for 10-15 minutes.\n5. Serve chicken and sauce over rice.",
+        "rating": 4.6
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/empanadas-with-sauce-it-decorated-with-lettuce-served-white-flat-plate_181624-32261.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+        "recipeName": "Empanadas",
+        "ingredients": [
+          "ground beef",
+          "onion",
+          "green pepper",
+          "olives",
+          "cumin",
+          "paprika",
+          "salt",
+          "flour",
+          "butter",
+          "water",
+          "egg"
+        ],
+        "cookingMethod": "1. In a large skillet, cook ground beef over medium heat until browned.\n2. Add chopped onion, green pepper, and olives, and cook until vegetables are soft.\n3. Add cumin, paprika, and salt, and stir to combine.\n4. In a separate bowl, mix flour, butter, water, and egg to make dough.\n5. Roll out dough and cut into circles.\n6. Spoon beef mixture onto each circle of dough, fold over, and press edges together to seal.\n7. Bake empanadas in preheated oven at 375°F for 20-25 minutes, or until golden brown.",
+        "rating": 4.9
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-vector/watercolor-ceviche-illustration_52683-53587.jpg?size=626&ext=jpg&ga=GA1.2.2052780206.1681078998&semt=sph",
+        "recipeName": "Ceviche",
+        "ingredients": [
+          "fish",
+          "lime juice",
+          "onion",
+          "tomato",
+          "jalapeno",
+          "cilantro",
+          "salt"
+        ],
+        "cookingMethod": "1. Cut fish into small pieces.\n2. In a bowl, mix fish with lime juice and let marinate for 10-15 minutes.\n3. Add chopped onion, tomato, jalapeno, and cilantro.\n4. Season with salt and stir to combine.\n5. Serve ceviche chilled.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "categoryId": 1,
+    "chefName": "Hiroshi Tanaka",
+    "chefPicture": "https://img.freepik.com/free-photo/chef-with-thumb-up-white-background_1368-2842.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+    "yearsOfExperience": 20,
+    "numberOfRecipes": 75,
+    "likes": 5000,
+    "shortBio": "Hiroshi Tanaka is a renowned Japanese chef with over 20 years of experience. He has worked in some of the most prestigious restaurants in Japan and has won numerous awards for his innovative and delicious dishes. Hiroshi is known for his use of fresh, seasonal ingredients and his attention to detail in every aspect of cooking.",
+    "recipes": [
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/side-view-mix-sushi-rolls-tray-with-ginger-wasabi_141793-14242.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Sushi Rolls",
+        "ingredients": [
+          "sushi rice",
+          "nori seaweed",
+          "tuna",
+          "salmon",
+          "avocado",
+          "cucumber",
+          "wasabi",
+          "soy sauce"
+        ],
+        "cookingMethod": "1. Cook sushi rice according to package instructions.\n2. Lay out a sheet of nori seaweed on a bamboo sushi mat.\n3. Spread rice evenly over the nori, leaving a 1-inch border at the top.\n4. Place thin slices of tuna, salmon, avocado, and cucumber on top of the rice.\n5. Roll the sushi tightly using the mat, and press the edges to seal.\n6. Slice the roll into bite-sized pieces.\n7. Serve with wasabi and soy sauce.",
+        "rating": 4.8
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Miso Soup",
+        "ingredients": [
+          "dashi stock",
+          "miso paste",
+          "tofu",
+          "green onions",
+          "seaweed"
+        ],
+        "cookingMethod": "1. Bring dashi stock to a boil in a medium pot.\n2. Reduce heat to low and add miso paste, stirring to dissolve.\n3. Add cubed tofu and sliced green onions, and let simmer for 5 minutes.\n4. Add dried seaweed and let cook for an additional 2-3 minutes.\n5. Serve hot.",
+        "rating": 4.5
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/delicious-goulash-ready-dinner_23-2149370900.jpg?size=626&ext=jpg&ga=GA1.2.2052780206.1681078998&semt=ais",
+        "recipeName": "Beef Teriyaki",
+        "ingredients": [
+          "beef",
+          "soy sauce",
+          "sugar",
+          "mirin",
+          "sake",
+          "ginger",
+          "garlic",
+          "vegetable oil",
+          "green onions"
+        ],
+        "cookingMethod": "1. In a small saucepan, mix soy sauce, sugar, mirin, sake, ginger, and garlic.\n2. Bring to a boil and let simmer until thickened.\n3. In a large skillet, heat vegetable oil over high heat.\n4. Add sliced beef and cook until browned.\n5. Add the sauce to the skillet and stir to coat the beef.\n6. Cook for an additional 2-3 minutes until the sauce has thickened.\n7. Serve hot with sliced green onions.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "categoryId": 2,
+    "chefName": "Maria Garcia",
+    "chefPicture": "https://img.freepik.com/free-photo/female-chef-holding-wooden-spoon-whisk-rolling-pin-white-uniform-looking-cheery_176474-12639.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 50,
+    "likes": 3000,
+    "shortBio": "Maria Garcia is a celebrated chef from Spain, known for her authentic and delicious Mediterranean dishes. With over 15 years of experience, she has worked in some of the most prestigious restaurants in Europe, and her culinary skills have won her numerous accolades. Maria is passionate about using fresh, high-quality ingredients to create dishes that are both healthy and flavorful.",
+    "recipes": [
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/ncooked-sea-food-specialties-ready-cooking_1398-592.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+        "recipeName": "Paella",
+        "ingredients": [
+          "rice",
+          "chicken",
+          "chorizo",
+          "shrimp",
+          "mussels",
+          "onion",
+          "garlic",
+          "tomato",
+          "paprika",
+          "saffron",
+          "chicken broth"
+        ],
+        "cookingMethod": "1. Heat olive oil in a large paella pan over medium heat.\n2. Add sliced onion and minced garlic, and cook until soft.\n3. Add diced tomato and cook for another 5 minutes.\n4. Add sliced chorizo and diced chicken to the pan, and cook until browned.\n5. Add rice to the pan, stirring to coat with the other ingredients.\n6. Add paprika and saffron to the pan, stirring to distribute evenly.\n7. Add chicken broth to the pan and stir well.\n8. Arrange shrimp and mussels on top of the rice.\n9. Cover the pan with foil and let cook for 20-25 minutes, or until the rice is tender and the seafood is cooked.\n10. Serve hot with lemon wedges.",
+        "rating": 4.9
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/homemade-gazpacho-tomato-soup-food-photography_53876-106078.jpg?size=626&ext=jpg&ga=GA1.2.2052780206.1681078998&semt=sph",
+        "recipeName": "Gazpacho",
+        "ingredients": [
+          "tomatoes",
+          "cucumber",
+          "bell pepper",
+          "garlic",
+          "red wine vinegar",
+          "olive oil",
+          "bread",
+          "water",
+          "salt",
+          "pepper"
+        ],
+        "cookingMethod": "1. Roughly chop tomatoes, cucumber, and bell pepper.\n2. Add chopped garlic, red wine vinegar, and olive oil to the vegetables.\n3. Tear bread into pieces and add to the mixture.\n4. Add water to the mixture and let sit for 30 minutes.\n5. Blend the mixture until smooth.\n6. Strain the mixture through a fine-mesh sieve.\n7. Season with salt and pepper to taste.\n8. Serve chilled with a drizzle of olive oil on top.",
+        "rating": 4.6
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/high-angle-breakfast-omelette-pan-with-tomatoes-herbs_23-2148417366.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Spanish Omelette",
+        "ingredients": ["potatoes", "onion", "olive oil", "eggs"],
+        "cookingMethod": "1. Peel and thinly slice potatoes and onions.\n2. Heat olive oil in a large skillet over medium heat.\n3. Add sliced potatoes and onions to the skillet, and cook until tender and lightly browned.\n4. Beat eggs in a large bowl",
+        "rating": 4.2
+      }
+    ]
+  },
+  {
+    "_id": 6,
+    "categoryId": 3,
+    "chefName": "David Chang",
+    "chefPicture": "https://img.freepik.com/free-photo/professional-male-chef-cook-white-uniform-cook-hat-pointing-sidewith-index-finger-looking-confident-standing-white-background_141793-20622.jpg?w=900&t=st=1683022191~exp=1683022791~hmac=9aa9eaa6a971e7ad2ddc5b0eb27a883408600cbaf61cf740336460d0bd7863f3",
+    "yearsOfExperience": 20,
+    "numberOfRecipes": 100,
+    "likes": 5000,
+    "shortBio": "David Chang is a Korean-American chef, restaurateur, and author. He is the founder of the Momofuku restaurant group, which includes several restaurants in New York City, Washington D.C., Los Angeles, and Toronto. With over 20 years of experience in the culinary industry, David is known for his innovative and creative approach to cooking, blending flavors and techniques from different cultures to create unique and delicious dishes.",
+    "recipes": [
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/meat-pies-from-bougie-dough-wooden-board_140725-4827.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Momofuku Pork Buns",
+        "ingredients": [
+          "pork belly",
+          "hoisin sauce",
+          "scallions",
+          "cucumber",
+          "steamed buns"
+        ],
+        "cookingMethod": "1. Preheat the oven to 400°F (200°C).\n2. Rub the pork belly with salt and pepper and roast in the oven for 1-1/2 to 2 hours, until tender.\n3. Let the pork belly cool slightly, then slice into thin pieces.\n4. Heat the steamed buns in a steamer or microwave until warm.\n5. Spread hoisin sauce on each bun.\n6. Add a slice of pork belly, some sliced scallions, and some sliced cucumber to each bun.\n7. Serve hot.",
+        "rating": 4.8
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/miso-soup-with-mushrooms-table_140725-5328.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=ais",
+        "recipeName": "Spicy Miso Ramen",
+        "ingredients": [
+          "ramen noodles",
+          "pork shoulder",
+          "chicken stock",
+          "miso paste",
+          "soy sauce",
+          "sake",
+          "mirin",
+          "sugar",
+          "garlic",
+          "ginger",
+          "scallions",
+          "corn",
+          "butter",
+          "eggs",
+          "sesame oil",
+          "chili oil"
+        ],
+        "cookingMethod": "1. Season the pork shoulder with salt and pepper and sear in a hot skillet until browned.\n2. Transfer the pork shoulder to a slow cooker and add chicken stock, miso paste, soy sauce, sake, mirin, sugar, garlic, ginger, and sliced scallions.\n3. Cook on low heat for 8 hours, until the pork is tender.\n4. Cook the ramen noodles according to package instructions.\n5. In a separate pan, melt butter and cook corn until lightly browned.\n6. Soft-boil eggs for 6 minutes.\n7. In a large bowl, add cooked ramen noodles, sliced pork, corn, soft-boiled eggs, and sliced scallions.\n8. Ladle hot broth over the ingredients in the bowl.\n9. Drizzle with sesame oil and chili oil.\n10. Serve hot.",
+        "rating": 4.7
+      },
+      {
+        "recipePicture": "https://img.freepik.com/free-photo/tasty-spanish-paella-with-seafood_1205-8993.jpg?size=626&ext=jpg&ga=GA1.1.2052780206.1681078998&semt=sph",
+        "recipeName": "Paella",
+        "ingredients": [
+          "rice",
+          "chicken",
+          "chorizo",
+          "shrimp",
+          "mussels",
+          "onion",
+          "garlic",
+          "tomato",
+          "paprika",
+          "saffron",
+          "chicken broth"
+        ],
+        "cookingMethod": "1. Heat olive oil in a large paella pan over medium heat.\n2. Add sliced onion and minced garlic, and cook until soft.\n3. Add diced tomato and cook for another 5 minutes.\n4. Add sliced chorizo and diced chicken to the pan, and cook until browned.\n5. Add rice to the pan, stirring to coat with the other ingredients.\n6. Add paprika and saffron to the pan, stirring to distribute evenly.\n7. Add chicken broth to the pan and stir well.\n8. Arrange shrimp and mussels on top of the rice.\n9. Cover the pan with foil and let cook for 20-25 minutes, or until the rice is tender and the seafood is cooked.\n10. Serve hot with lemon wedges.",
+        "rating": 4.8
+      }
+    ]
+  }
+]
